@@ -94,4 +94,4 @@ async def on_message(message):
 
                     disp = True
 
-client.run('Nzk0NzM4OTkwNTkwNTkxMDI3.X-_MXA.2OhTevFe7NpJfDnVPCyJMjz-3ls')
+client.run('token')
