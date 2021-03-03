@@ -9,9 +9,9 @@ if DEBUG:
     from dotenv import load_dotenv
     env_path = Path(".") / ".env.debug"
     load_dotenv(dotenv_path=env_path)
-    from settings_files.development import *
+    from settings_files.dev import *
 
 # de lo contrario, incluira solo este
 else:
-    print("We are in Production")
-    from settings_files.production import *
+    print("Production")
+    from settings_files.prod import *
