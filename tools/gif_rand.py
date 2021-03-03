@@ -11,8 +11,8 @@ import random
 
 
 bot = commands.Bot(command_prefix="+")
-tenor_api = 'A5YBWNVKDZ01'
-giphy_api = 'YN1EgYppDkKCjwb0qTa5gnZJ9yK3YvRa'
+tenor_api = 'api'
+giphy_api = 'api'
 
 class Gifs(commands.Cog):
     def __init__(self, bot):
@@ -20,7 +20,7 @@ class Gifs(commands.Cog):
 
     @commands.command(brief="gifs from Giphy")
     async def gifs(self, ctx, *, q="anime"):
-        api_key = 'YN1EgYppDkKCjwb0qTa5gnZJ9yK3YvRa'
+        api_key = 'api'
         api_instance = giphy_client.DefaultApi()
         try:
             api_responce = api_instance.gifs_search_get(api_key, q, limit=4, rating='pg')
@@ -40,7 +40,7 @@ class Gifs(commands.Cog):
             user = ctx.message.author
             
         search.replace('','+')
-        apikey = "A5YBWNVKDZ01"
+        apikey = "api"
         lmt = 4
         r = requests.get("https://g.tenor.com/v1/search?q=%s&key=%s&limit=%s" % (search, apikey, lmt))
         data = json.loads(r.text)
