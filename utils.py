@@ -7,7 +7,7 @@ def last_replace(s, old, new):
     return new.join(li)
 
 def text_to_owo(text):
-    """ Converts your text to OwO """
+    """ Convierte el texto a OwO """
     smileys = [';;w;;', '^w^', '>w<', 'UwU', '(・`ω\´・)', '(´・ω・\`)']
 
     text = text.replace('L', 'W').replace('l', 'w')
