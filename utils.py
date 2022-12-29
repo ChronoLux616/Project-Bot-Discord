@@ -1,4 +1,7 @@
 import random
+import settings
+
+logger = settings.logging.getLogger(__name__)
 
 vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
 
@@ -24,3 +27,11 @@ def text_to_owo(text):
             text = text.replace('N{}'.format(v), 'N{}{}'.format('Y' if v.isupper() else 'y', v))
 
     return text
+
+
+async def load_videocmds(bot):
+    logger.info(f"User: {bot.user} (ID: {bot.user.id})")
+    for extension_file in settings.VIDEOCMDS_DIR.glob("*.py"):
+        if extension_file.name != "__init__.py" and not extension_file.name.startswith("_"):
+            await bot.load_extension(f"{settings.VIDEOCMDS_DIR.name}.{extension_file.name[:-3]}")
+            logger.debug(f"Loadded CMD: {extension_file.name}")
