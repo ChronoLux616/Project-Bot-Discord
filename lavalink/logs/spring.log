@@ -1,0 +1,161 @@
+2022-12-28 21:44:33.739  INFO 42782 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 19.0.1 on zefira-host with PID 42782 (/home/zefiria/Documents/Projects/Python Django/Project_bt/lavalink/Lavalink.jar started by zefiria in /home/zefiria/Documents/Projects/Python Django/Project_bt/lavalink)
+2022-12-28 21:44:33.760  INFO 42782 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2022-12-28 21:44:36.294  INFO 42782 --- [main] lavalink.server.Launcher                 : Started Launcher in 4.256 seconds (JVM running for 6.408)
+2022-12-28 21:44:36.299  INFO 42782 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2022-12-28 21:44:36.472  INFO 42782 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.6.2
+	Build time:     08.11.2022 09:02:53 UTC
+	Branch          HEAD
+	Commit:         4782f1f
+	Commit time:    08.11.2022 09:01:14 UTC
+	JVM:            19.0.1
+	Lavaplayer      1.3.99.1-original
+
+2022-12-28 21:44:36.488  INFO 42782 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2022-12-28 21:44:38.620  WARN 42782 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-12-28 21:44:38.688  INFO 42782 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-12-28 21:44:38.689  INFO 42782 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2190 ms
+2022-12-28 21:44:39.849  INFO 42782 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2022-12-28 21:44:40.327  INFO 42782 --- [main] lavalink.server.config.KoeConfiguration  : OS: LINUX, Arch: X86_64
+2022-12-28 21:44:40.327  INFO 42782 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2022-12-28 21:44:40.336  INFO 42782 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2022-12-28 21:44:40.362  INFO 42782 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2022-12-28 21:44:40.432  WARN 42782 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2022-12-28 21:44:41.066  INFO 42782 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
+2022-12-28 21:44:41.108  INFO 42782 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
+2022-12-28 21:44:41.128  INFO 42782 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
+2022-12-28 21:44:41.465  INFO 42782 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2022-12-28 21:44:41.589  INFO 42782 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 2333 (http)
+2022-12-28 21:44:41.598  INFO 42782 --- [main] lavalink.server.Launcher                 : Started Launcher in 5.226 seconds (JVM running for 11.713)
+2022-12-28 21:44:41.601  INFO 42782 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2022-12-28 21:45:30.471  INFO 42782 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-28 21:45:30.472  INFO 42782 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-28 21:45:30.474  INFO 42782 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-12-28 21:45:30.505  INFO 42782 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:58756
+2022-12-28 21:45:30.751  INFO 42782 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from WaveLink
+2022-12-28 21:45:30.783  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "254a70f34c11eb08", "timeout": 60}
+2022-12-28 21:56:49.950  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:58756 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key 254a70f34c11eb08
+2022-12-28 21:56:59.657  INFO 42782 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:34656
+2022-12-28 21:56:59.678  INFO 42782 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from WaveLink
+2022-12-28 21:56:59.680  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "ee64ffc8f683577b", "timeout": 60}
+2022-12-28 21:57:11.887  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "454411276773490688", "sessionId": "c51b674b03e80e29496e48facc7a9587", "event": {"token": "7170ad1a77ce1949", "guild_id": "454411276773490688", "endpoint": "atlanta7745.discord.media:443"}}
+2022-12-28 21:57:49.995  INFO 42782 --- [pool-2-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-12-28 21:58:47.433  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:imissyouadamsong"
+2022-12-28 21:58:48.859  INFO 42782 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: imissyouadamsong
+2022-12-28 21:58:59.758  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "454411276773490688", "track": "QAAAZwIACEkgTWlzcyBVAAVTZWx2YQAAAAAAAv2gAAt6cC00eGNxaUozQQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXpwLTR4Y3FpSjNBAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false}
+2022-12-28 21:58:59.815  WARN 42782 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : YouTube auth tokens can't be retrieved because email and password is not set in YoutubeAudioSourceManager, age restricted videos will throw exceptions.
+2022-12-28 21:58:59.819  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2022-12-28 21:59:00.593  INFO 42782 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is null).
+2022-12-28 21:59:01.022  INFO 42782 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is Cgs3WUNiaW1zdUJMOCiEobSdBg%3D%3D, next update will be after 600 seconds.
+2022-12-28 22:00:04.382  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "destroy", "guildId": "454411276773490688"}
+2022-12-28 22:00:04.490  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:34656 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key ee64ffc8f683577b
+2022-12-28 22:01:04.491  INFO 42782 --- [pool-3-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-12-28 22:11:20.627  INFO 42782 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:45782
+2022-12-28 22:11:20.634  INFO 42782 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from WaveLink
+2022-12-28 22:11:20.640  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "33b025e6a1adec76", "timeout": 60}
+2022-12-28 22:11:44.140  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:op1bleach"
+2022-12-28 22:11:44.872  INFO 42782 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: op1bleach
+2022-12-28 22:11:50.341  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "454411276773490688", "sessionId": "52940321df4551c57ba25aa5e656cc15", "event": {"token": "ff1fa24dfc7fc513", "guild_id": "454411276773490688", "endpoint": "atlanta7745.discord.media:443"}}
+2022-12-28 22:11:56.177  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "454411276773490688", "track": "QAAAcAIACiogQXN0ZXJpc2sADE9yYW5nZSBSYW5nZQAAAAAAA+QYAAtVQXdlY2pUaFptcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVVBd2VjalRoWm1zAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false}
+2022-12-28 22:11:56.188  INFO 42782 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is Cgs3WUNiaW1zdUJMOCiEobSdBg%3D%3D).
+2022-12-28 22:11:56.192  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2022-12-28 22:11:56.393  INFO 42782 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtfRE1qRHA5MkhNYyiMp7SdBg%3D%3D, next update will be after 600 seconds.
+2022-12-28 22:13:31.978  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "destroy", "guildId": "454411276773490688"}
+2022-12-28 22:13:32.083  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:45782 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key 33b025e6a1adec76
+2022-12-28 22:13:37.524  INFO 42782 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:38226
+2022-12-28 22:13:37.530  INFO 42782 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from WaveLink
+2022-12-28 22:13:37.533  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "98a9b9486d71a66b", "timeout": 60}
+2022-12-28 22:13:59.027  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "454411276773490688", "sessionId": "a233db929c6a0c97dad50c7cc096f45d", "event": {"token": "5d4a843c6b842186", "guild_id": "454411276773490688", "endpoint": "atlanta7745.discord.media:443"}}
+2022-12-28 22:14:32.083  INFO 42782 --- [pool-4-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-12-28 22:14:41.052  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:op1inuyasha"
+2022-12-28 22:14:41.502  INFO 42782 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: op1inuyasha
+2022-12-28 22:14:50.496  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "454411276773490688", "track": "QAAAhwIAIEVsIE11bmRvIEhlIGRlIENhbWJpYXIsIEludXlhc2hhAA1SaWNhcmRvIFNpbHZhAAAAAAAECygAC3RsTmNKV20wQThvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9dGxOY0pXbTBBOG8AB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false}
+2022-12-28 22:14:50.506  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2022-12-28 22:15:10.740  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "pause", "guildId": "454411276773490688", "pause": true}
+2022-12-28 22:15:16.547  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "pause", "guildId": "454411276773490688", "pause": false}
+2022-12-28 22:17:10.153  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "destroy", "guildId": "454411276773490688"}
+2022-12-28 22:17:10.260  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:38226 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key 98a9b9486d71a66b
+2022-12-28 22:17:17.811  INFO 42782 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:54312
+2022-12-28 22:17:17.815  INFO 42782 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from WaveLink
+2022-12-28 22:17:17.816  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "d589aec4196d0003", "timeout": 60}
+2022-12-28 22:17:25.772  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "454411276773490688", "sessionId": "3989f605648ebe9837412851968e422f", "event": {"token": "9db68e65ca9d31c0", "guild_id": "454411276773490688", "endpoint": "atlanta7745.discord.media:443"}}
+2022-12-28 22:17:48.173  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:opening1inuyashaoriginal"
+2022-12-28 22:17:48.805  INFO 42782 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: opening1inuyashaoriginal
+2022-12-28 22:17:51.548  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "454411276773490688", "track": "QAAAZgIAB015IFdpbGwABWRyZWFtAAAAAAAE7bgAC05CZnBLc093azFjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9TkJmcEtzT3drMWMAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false}
+2022-12-28 22:17:51.555  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2022-12-28 22:18:10.260  INFO 42782 --- [pool-5-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-12-28 22:18:33.425  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "pause", "guildId": "454411276773490688", "pause": true}
+2022-12-28 22:18:37.885  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "pause", "guildId": "454411276773490688", "pause": false}
+2022-12-28 22:18:41.809  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "454411276773490688"}
+2022-12-28 22:18:41.822  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2022-12-28 22:19:08.202  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:inuyashaop1latino"
+2022-12-28 22:19:08.775  INFO 42782 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: inuyashaop1latino
+2022-12-28 22:19:11.216  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "454411276773490688", "track": "QAAAjAIALUNhbWJpYXIgZWwgbXVuZG8gLUludXlhc2hhLCB0ZW1hIGRlIGFwZXJ0dXJhLQAFQ2hhcm0AAAAAAAQ6CAALSVR4akZkRmtybGsAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1JVHhqRmRGa3JsawAHeW91dHViZQAAAAAAAAAA", "noReplace": false}
+2022-12-28 22:19:11.222  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2022-12-28 22:19:23.322  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "pause", "guildId": "454411276773490688", "pause": true}
+2022-12-28 22:22:09.373  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "454411276773490688"}
+2022-12-28 22:22:09.379  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2022-12-28 22:22:32.339  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:op1latinoinuyasha"
+2022-12-28 22:22:32.954  INFO 42782 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: op1latinoinuyasha
+2022-12-28 22:22:35.403  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "454411276773490688", "track": "QAAAjAIALUNhbWJpYXIgZWwgbXVuZG8gLUludXlhc2hhLCB0ZW1hIGRlIGFwZXJ0dXJhLQAFQ2hhcm0AAAAAAAQ6CAALSVR4akZkRmtybGsAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1JVHhqRmRGa3JsawAHeW91dHViZQAAAAAAAAAA", "noReplace": false}
+2022-12-28 22:22:35.405  INFO 42782 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is CgtfRE1qRHA5MkhNYyiMp7SdBg%3D%3D).
+2022-12-28 22:22:35.409  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2022-12-28 22:22:35.469  INFO 42782 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtEWlJNRlZCbEJmdyiLrLSdBg%3D%3D, next update will be after 600 seconds.
+2022-12-28 22:22:52.743  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "454411276773490688"}
+2022-12-28 22:22:52.754  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2022-12-28 22:51:20.823  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "destroy", "guildId": "454411276773490688"}
+2022-12-28 22:51:20.949  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:54312 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key d589aec4196d0003
+2022-12-28 22:51:28.366  INFO 42782 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:34026
+2022-12-28 22:51:28.370  INFO 42782 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from WaveLink
+2022-12-28 22:51:28.371  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "5bd28790e8e3f1b6", "timeout": 60}
+2022-12-28 22:51:36.535  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "454411276773490688", "sessionId": "5a0df65c3ed1cae4d51fc7d8a109db66", "event": {"token": "8fe1d6183b5cb01a", "guild_id": "454411276773490688", "endpoint": "atlanta7745.discord.media:443"}}
+2022-12-28 22:51:50.162  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:op1fairytail"
+2022-12-28 22:51:50.872  INFO 42782 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: op1fairytail
+2022-12-28 22:52:02.929  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:op1spiceandwolf"
+2022-12-28 22:52:03.602  INFO 42782 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: op1spiceandwolf
+2022-12-28 22:52:20.949  INFO 42782 --- [pool-6-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-12-28 22:53:07.945  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "destroy", "guildId": "454411276773490688"}
+2022-12-28 22:53:08.046  INFO 42782 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:34026 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key 5bd28790e8e3f1b6
+2022-12-28 22:53:16.074  INFO 42782 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:58374
+2022-12-28 22:53:16.077  INFO 42782 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from WaveLink
+2022-12-28 22:53:16.078  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "bb1726453bc05581", "timeout": 60}
+2022-12-28 22:53:20.647  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "454411276773490688", "sessionId": "49d6e5b3a225ccd829523306afa2d037", "event": {"token": "6866cd2488a1b4b1", "guild_id": "454411276773490688", "endpoint": "atlanta7745.discord.media:443"}}
+2022-12-28 22:53:30.206  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:op1fairytail"
+2022-12-28 22:53:30.619  INFO 42782 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: op1fairytail
+2022-12-28 22:53:36.826  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:op1spiceandwolf"
+2022-12-28 22:53:37.392  INFO 42782 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: op1spiceandwolf
+2022-12-28 22:54:08.046  INFO 42782 --- [pool-7-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-12-28 22:54:19.782  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "destroy", "guildId": "454411276773490688"}
+2022-12-28 22:54:19.879  INFO 42782 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:58374 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key bb1726453bc05581
+2022-12-28 22:54:24.564  INFO 42782 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:39574
+2022-12-28 22:54:24.569  INFO 42782 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from WaveLink
+2022-12-28 22:54:24.570  INFO 42782 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "d28a1f72b344e755", "timeout": 60}
+2022-12-28 22:54:31.660  INFO 42782 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "454411276773490688", "sessionId": "1ac5e6396f05c8d27dcdb6d22f5dff19", "event": {"token": "31a21d60fa6a64ce", "guild_id": "454411276773490688", "endpoint": "atlanta7745.discord.media:443"}}
+2022-12-28 22:54:36.156  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:op1fairytail"
+2022-12-28 22:54:36.529  INFO 42782 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: op1fairytail
+2022-12-28 22:54:40.275  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:op1spiceandwolf"
+2022-12-28 22:54:40.806  INFO 42782 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: op1spiceandwolf
+2022-12-28 22:54:53.193  INFO 42782 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "454411276773490688", "track": "QAAAcwIADOaXheOBrumAlOS4rQAN5riF5rWmIOWkj+WunwAAAAAABHSgAAs5eWRDMnBVUXBOUQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTl5ZEMycFVRcE5RAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false}
+2022-12-28 22:54:53.195  INFO 42782 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is CgtEWlJNRlZCbEJmdyiLrLSdBg%3D%3D).
+2022-12-28 22:54:53.200  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2022-12-28 22:54:53.395  INFO 42782 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtGQ01kdmJRczV5NCidu7SdBg%3D%3D, next update will be after 600 seconds.
+2022-12-28 22:55:16.382  INFO 42782 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "pause", "guildId": "454411276773490688", "pause": true}
+2022-12-28 22:55:19.879  INFO 42782 --- [pool-8-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-12-28 22:55:20.180  INFO 42782 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "pause", "guildId": "454411276773490688", "pause": false}
+2022-12-28 22:55:37.856  INFO 42782 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "454411276773490688", "track": "QAAAdgIAGFNub3cgRmFpcnkgKGZlYXQuIE1lcmxpKQAERUlKSQAAAAAAA+AwAAtZcGZpYWNvSHRRbwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVlwZmlhY29IdFFvAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false}
+2022-12-28 22:55:37.865  INFO 42782 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2022-12-28 22:55:37.867  INFO 42782 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2022-12-28 22:56:42.807  INFO 42782 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "454411276773490688"}
+2022-12-28 22:56:42.815  INFO 42782 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2022-12-28 22:56:53.988  INFO 42782 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:fairytailopening1"
+2022-12-28 22:56:54.604  INFO 42782 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: fairytailopening1
+2022-12-28 22:56:56.388  INFO 42782 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "454411276773490688", "track": "QAAAawIAClNub3cgZmFpcnkAB0ZVTktJU1QAAAAAAANPqAALSmVhLWZSUEtRbG8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1KZWEtZlJQS1FsbwAHeW91dHViZQAAAAAAAAAA", "noReplace": false}
+2022-12-28 22:56:56.395  INFO 42782 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
