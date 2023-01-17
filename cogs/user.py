@@ -2,13 +2,16 @@ from discord.colour import Color
 import discord
 import time
 from discord.ext import commands
+import settings
 
-class Com1(commands.Cog):
+
+class Users(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
     @commands.command(brief="Show avatar user")
     async def avatar(self, ctx, *, user: discord.Member = None):
+        """ Checa el ping del usuario """
         if user is None:
             user = ctx.message.author
         avatar = discord.Embed(color= discord.Color.dark_blue())
@@ -25,9 +28,11 @@ class Com1(commands.Cog):
         
     @commands.command(pass_context=True)
     async def ping(self, ctx):
+        """ Checa tambien el ping del usuario """
         before_1 = time.monotonic()
         message = await ctx.send("☑️ Espera...")
         ping_1 = (time.monotonic() - before_1) * 1000
+        # ping_1 = round(ctx.latency * 1000)
         before_2 = time.monotonic()
         message = await ctx.send("☑️ Espera...")
         ping_2 = (time.monotonic() - before_2) * 1000
@@ -36,8 +41,8 @@ class Com1(commands.Cog):
         e.add_field(name='✅', value=f'☑️', inline=True)
         e.add_field(name='📶 Your ping 1 is', value=f"`{int(ping_1)}ms`")
         e.add_field(name='📶 Your ping 2 is', value=f"`{int(ping_2)}ms`")
-        e.set_footer(text=f'Request by {ctx.author.name}', icon_url=ctx.author.avatar_url)
+        e.set_footer(text=f'Request by {ctx.author.name}', icon_url=ctx.author.avatar)
         await ctx.send(embed=e)
     
 async def setup(bot):
-    await bot.add_cog(Com1(bot))
+    await bot.add_cog(Users(bot))
