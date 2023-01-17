@@ -17,7 +17,7 @@ class Fun(commands.Cog):
 
     @commands.command()
     async def gifs(self, ctx, *, q="."):
-        """ Show gifs from Giphy """
+        """ Busca gifs desde Giphy """
         giphy_api = os.getenv("GIPHY_API")
         api_instance = giphy_client.DefaultApi()
         try:
@@ -38,7 +38,7 @@ class Fun(commands.Cog):
         
     @commands.command()
     async def gif(self, ctx, *, search, user: discord.Member=None):
-        """ Show gifs from Tenor """
+        """ Busca gifs desde Tenor """
         if user is None:
             user = ctx.message.author
         
