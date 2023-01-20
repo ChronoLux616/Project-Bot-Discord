@@ -63,6 +63,47 @@ class Fun(commands.Cog):
         if isinstance(error, commands.MissingRequiredArgument):
             await ctx.send("Necesitas un argumento mas!")
             
+    @commands.command()
+    async def anime(self, ctx, *, query="naruto"): # 'anime' is the name of the command
+        # This command can be used as `?anime character_name_here`
+        # The default value will be 'naruto' for the query
+        try:
+            reqcont = requests.get(f"https://www.animecharactersdatabase.com/api_series_characters.php?character_q={query}")
+            if reqcont.content==-1 or reqcont.content=='-1': # i found out that the website returns: -1 if there are no results, so here, we implement it
+                await ctx.send("[-] Unable to find results! - No such results exists!")
+
+            else:
+                # If the website doesnt return: -1 , this will happen
+                try:
+                    reqcont = reqcont.json()
+                except Exception as e:
+
+                    # Please enable this line only while you are developing and not when deplying
+                    await ctx.send(reqcont.content)
+
+                    await ctx.send(f"[-] Unable to turn the data to json format! {e}")
+                    return # the function will end if an error happens in creating a json out of the request
+
+                # selecting a random item for the output
+                rand_val = len(reqcont["search_results"])-1
+                get_index = random.randint(0, rand_val)
+                curent_info = reqcont["search_results"][get_index]
+
+                # Creting the embed and sending it
+                embed=discord.Embed(title="Anime Info", description=":smiley: Anime Character Info result for {query}", color=0x00f549)
+                embed.set_author(name="YourBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/879295069834850324/Avatar.png")
+                embed.set_thumbnail(url=f"{curent_info['anime_image']}")
+                embed.set_image(url=f"{curent_info['character_image']}")
+                embed.add_field(name="Anime Name", value=f"{curent_info['anime_name']}", inline=False)
+                embed.add_field(name="Name", value=f"{curent_info['name']}", inline=False)
+                embed.add_field(name="Gender", value=f"{curent_info['gender']}", inline=False)
+                embed.add_field(name="Description", value=f"{curent_info['desc']}", inline=False)
+                embed.set_footer(text=f"Requested by {ctx.author.mention}")
+                await ctx.send(embed=embed)
+
+        except Exception as e:
+            await ctx.send(f"[-] An error has occured: {e}")
+            
 
 async def setup(bot):
     await bot.add_cog(Fun(bot))
