@@ -20,7 +20,7 @@ class Admin(commands.Cog):
     @commands.command()
     @commands.is_owner()
     async def server(self, ctx):
-        """ Shows basic information about Guild """
+        """ Muestra informacion sobre el servidor """
         
         embed = discord.Embed(title=f"{ctx.guild.name} - Server Info ", description="Server information")
         embed.add_field(name="Server Name", value=ctx.guild.name, inline=False)
@@ -72,7 +72,7 @@ class Admin(commands.Cog):
     
     @commands.command()
     async def purge(self, ctx, channel : discord.TextChannel = None, limit : int = 100):
-        """ Delete N number of messages in a channel """
+        """ Elimina N numero de mensajes de un canal """
         if channel is None:
             channel = ctx.message.channel
         await channel.purge(limit=limit)
